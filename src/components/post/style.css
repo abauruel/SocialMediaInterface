@@ -1,0 +1,50 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  max-width: 70vw;
+  margin-left: 16vw;
+  margin-top: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 2, 0.1);
+}
+.Post img {
+  width: 32px;
+  border-radius: 50px;
+  margin: 10px;
+}
+.containerTitlePost {
+  display: flex;
+  flex-direction: row;
+}
+.containetOwnerData {
+  margin-top: 10px;
+}
+.containetOwnerData p {
+  font-size: 14px;
+}
+small {
+  font-size: 11px;
+  color: #9a9a9a;
+}
+hr {
+  border: 1px solid #eeeeee;
+  margin: 0px 20px;
+}
+
+.Postcontent p {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.Comments {
+  display: flex;
+  flex-direction: row;
+}
+.Comments img {
+  height: 32px;
+}
+.Containercommets p {
+  margin: 10px;
+  background: #eeee;
+  padding: 10px;
+  border-radius: 20px;
+}
